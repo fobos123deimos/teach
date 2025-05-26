@@ -6,6 +6,51 @@ Based on the comparative analysis, it may be helpful to offer comparative experi
 
 TEACH (Trajectory Embedding compArator benCHmark) assesses trajectory embeddings qualitatively to help researchers select a proper trajectory embedding representation before passing through a coupled neural network. This work is based on the ideas presented in the following paper: [Modeling Trajectories Obtained from External Sensors for Location Prediction via NLP Approaches ](https://www.mdpi.com/1424-8220/22/19/7475)
 
+---
+
+## 🧠 Dependencies & Libraries
+
+The following Python libraries were used across the scripts in this repository:
+
+[![Pandas](https://img.shields.io/badge/Pandas-1.5.3-150458?style=flat-square&logo=pandas&logoColor=white)](https://pandas.pydata.org/) 
+[![NumPy](https://img.shields.io/badge/NumPy-1.23.5-013243?style=flat-square&logo=numpy&logoColor=white)](https://numpy.org/) 
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.6.2-11557C?style=flat-square&logo=matplotlib&logoColor=white)](https://matplotlib.org/) 
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0.2-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/) 
+[![Keras](https://img.shields.io/badge/Keras-2.9.0-D00000?style=flat-square&logo=keras&logoColor=white)](https://keras.io/) 
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.9.1-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/) 
+[![TQDM](https://img.shields.io/badge/TQDM-4.66.1-4C4C4C?style=flat-square&logo=python&logoColor=white)](https://tqdm.github.io/) 
+[![OSMNX](https://img.shields.io/badge/OSMNX-1.2.2-4C4C4C?style=flat-square&logo=python&logoColor=white)](https://osmnx.readthedocs.io/) 
+[![NetworkX](https://img.shields.io/badge/NetworkX-2.8.5-4C4C4C?style=flat-square&logo=python&logoColor=white)](https://networkx.org/) 
+[![IPyWidgets](https://img.shields.io/badge/IPyWidgets-8.0.6-4C4C4C?style=flat-square&logo=jupyter&logoColor=white)](https://ipywidgets.readthedocs.io/) 
+[![IPython](https://img.shields.io/badge/IPython-8.8.0-4C4C4C?style=flat-square&logo=jupyter&logoColor=white)](https://ipython.readthedocs.io/) 
+[![PyMove](https://img.shields.io/badge/PyMove-3.1.2-4C4C4C?style=flat-square&logo=python&logoColor=white)](https://github.com/InsightLab/PyMove) 
+[![NLTK](https://img.shields.io/badge/NLTK-3.7-4C4C4C?style=flat-square&logo=python&logoColor=white)](https://www.nltk.org/) 
+[![Folium](https://img.shields.io/badge/Folium-0.14.0-4C4C4C?style=flat-square&logo=python&logoColor=white)](https://python-visualization.github.io/folium/) 
+[![Keras Preprocessing](https://img.shields.io/badge/Keras--Preprocessing-1.1.2-4C4C4C?style=flat-square&logo=python&logoColor=white)](https://github.com/keras-team/keras-preprocessing) 
+[![Voila](https://img.shields.io/badge/Voila-0.5.2-4C4C4C?style=flat-square&logo=jupyter&logoColor=white)](https://voila.readthedocs.io/en/stable/) 
+[![Math](https://img.shields.io/badge/Math-built--in-11557C?style=flat-square&logo=python&logoColor=white)](https://docs.python.org/3/library/math.html) 
+[![OS](https://img.shields.io/badge/OS-built--in-11557C?style=flat-square&logo=python&logoColor=white)](https://docs.python.org/3/library/os.html) 
+[![Sys](https://img.shields.io/badge/Sys-built--in-11557C?style=flat-square&logo=python&logoColor=white)](https://docs.python.org/3/library/sys.html) 
+[![Pathlib](https://img.shields.io/badge/Pathlib-built--in-11557C?style=flat-square&logo=python&logoColor=white)](https://docs.python.org/3/library/pathlib.html) 
+[![IO](https://img.shields.io/badge/IO-built--in-11557C?style=flat-square&logo=python&logoColor=white)](https://docs.python.org/3/library/io.html) 
+[![Random](https://img.shields.io/badge/Random-built--in-11557C?style=flat-square&logo=python&logoColor=white)](https://docs.python.org/3/library/random.html) 
+[![Copy](https://img.shields.io/badge/Copy-built--in-11557C?style=flat-square&logo=python&logoColor=white)](https://docs.python.org/3/library/copy.html)
+
+
+### ✅ Main Usage per Script:
+
+| Script                        | Libraries                                                                                                                                                      |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `app/dashboards_classes/view_trajectory_data.py`     | Pandas, NumPy, IPython, IPyWidgets, PyMove, Folium, OS, Pathlib, Random                                                                                         |
+| `app/dashboards_classes/extrinsic_evaluation.py`     | Pandas, NumPy, scikit-learn, Keras, IPython, IPyWidgets, Pathlib                                                                                                |
+| `app/dashboards_classes/intrinsic_evaluation.py`     | Pandas, NumPy, IPython, IPyWidgets, PyMove, OSMNX, NetworkX, Matplotlib, NLTK, TQDM, Pathlib, OS, Copy                                                          |
+| `app/dashboards_classes/teach_main.py`               | Pandas, NumPy, IPython, IPyWidgets, Keras, OS, Pathlib, IO, Copy                                                                                                |
+| `app/utils/distances.py`                | Math, NumPy                                                                                                                                                     |
+| `app/utils/geographical.py`             | Keras Preprocessing (pad_sequences)                                                                                                                             |
+| `app/utils/metrics.py`                  | NumPy                                                                                                                                                           |
+| `app/utils/output.py`                   | IPython, IPyWidgets                                                                                                                                             |
+
+---
 
 ## Activating the TEACH
 
