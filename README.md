@@ -12,6 +12,7 @@ TEACH (Trajectory Embedding compArator benCHmark) assesses trajectory embeddings
 
 The following Python libraries were used across the scripts in this repository:
 
+[![Python](https://img.shields.io/badge/Python-3.8.3-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-383/)
 [![Pandas](https://img.shields.io/badge/Pandas-1.5.3-150458?style=flat-square&logo=pandas&logoColor=white)](https://pandas.pydata.org/) 
 [![NumPy](https://img.shields.io/badge/NumPy-1.23.5-013243?style=flat-square&logo=numpy&logoColor=white)](https://numpy.org/) 
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.6.2-11557C?style=flat-square&logo=matplotlib&logoColor=white)](https://matplotlib.org/) 
